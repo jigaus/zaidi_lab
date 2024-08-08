@@ -73,6 +73,7 @@ counts <- featureCounts(files,
   nthreads = 16,
   countMultiMappingReads = TRUE,
   isPairedEnd = TRUE,
+  countReadPairs = TRUE,
   strandSpecific = 0,
 )
 ```
